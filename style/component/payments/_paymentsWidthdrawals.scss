@@ -1,0 +1,104 @@
+.payments_widthrawals ul {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    .payments_widthrawals {
+        margin-top: 96px;
+        display: block;
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 159.6px;
+            .payments_widthrawals_items {
+                display: flex;
+                justify-content: space-between;
+                .payments_widthrawals_itemstat {
+                    width: 368px;
+                    h4 {
+                        margin-bottom: 40px;
+                        font-size: 32px;
+                        line-height: 48px;
+                        letter-spacing: .25px;    
+                    }
+                    ul {
+                        margin-bottom: 40px;
+                        list-style: none;
+                        li {
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 24px;
+                            letter-spacing: .5px;
+
+                            background: url(../../../public/images/tariffs/done.svg) no-repeat 0;
+                            background-size: 20px;
+                            background-position-y: top;
+                            padding: 0 28px;   
+                            color: rgba(0,0,0,.6);
+                            margin-bottom: 16px;        
+                        }
+                    }
+                    .signin {
+                        display: inline-block;
+                        text-align: center;
+
+                        background: #058d66;
+                        color: #fff;
+                        background-position: 50%;
+
+                        min-width: 128px;
+                        height: 56px;
+                        padding: 16px;
+
+                        transition: all .3s cubic-bezier(.23,1,.32,1);
+                        font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: .1px;
+                        font-weight: 400;
+                        border-radius: 6px;
+                        cursor: pointer;
+                        outline: none;
+                        border: none;
+
+                        text-decoration: none;
+                    }
+                    .signin:hover {
+                        background: #2caa84 radial-gradient(circle,transparent 1%,#2caa84 0) 50%/18000%;
+                        color: #fff;
+                    }
+                }
+                .payments_widthrawals_itempic {
+                    display: block;
+                    .imageholder {
+                        width: 608px;
+                        height: 432px;
+                        padding: 12px;
+                        box-shadow: 0 2px 6px rgba(52,56,54,.05), 0 8px 32px rgba(52,56,54,.05);
+                        border-radius: 28px;      
+                        .image {
+                            background-image: url(../../../public/images/payments/paymnets-ipad-bg.png);
+                            background-position: top;
+                            background-repeat: no-repeat;
+                            background-size: 100% 100%;
+                            height: 100%;
+                            width: 100%;
+                            border: 0.5px solid #e2e3e2;
+                            border-radius: 20px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: flex-end;
+                            padding-bottom: 7px;
+                            .home_bar {
+                                width: 118px;
+                                height: 3px;
+                                border-radius: 8px;
+                                background-color: #000;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

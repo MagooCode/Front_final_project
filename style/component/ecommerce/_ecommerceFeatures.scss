@@ -1,0 +1,66 @@
+body {
+    .ecommerce_features {
+        margin-top: 64px;
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 159.6px;     
+            .ecommerce_features_heading {
+                margin-bottom: 48px;
+                h2 {
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 32px;
+                    line-height: 48px;
+                    letter-spacing: .25px;
+                    color: rgba(0,0,0,.87);          
+                }
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 28px;
+                    letter-spacing: .15px;
+                    color: rgba(0,0,0,.6);       
+                }
+            }
+            .ecommerce_features_items {
+                .row {
+                    display: flex;
+                    flex-wrap: wrap;
+                    .ecommerce_features_item {
+                        flex: 0 0 33.3333333333%;
+                        max-width: 33.3333333333%;     
+                        .ecommerce_benefit_item {
+                            background-color: #fafafa;
+                            display: block;
+                            margin-bottom: 24px;
+                            padding: 32px 24px;     
+                            margin-right: 24px;
+                            .ecommerce_benefit_item_content {
+                                h6 {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 24px;
+                                    line-height: 32px;
+                                    color: rgba(0,0,0,.87);
+        
+                                    margin-bottom: 16px;
+                                    letter-spacing: .15px;
+                                }
+                                p {
+                                    font-weight: 300;
+                                    font-size: 20px;
+                                    line-height: 28px;
+                                    letter-spacing: .15px;
+                                    color: rgba(0,0,0,.6);    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

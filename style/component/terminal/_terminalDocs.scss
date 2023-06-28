@@ -1,0 +1,78 @@
+body {
+    .terminal_docs {
+        margin-bottom: 96px;
+        margin-top: 96px;
+        display: block;
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 159.6px;
+            h2 {
+                margin-bottom: 40px;
+                font-size: 32px;
+                line-height: 48px;
+                letter-spacing: .25px;
+                font-weight: 300;             
+            }
+        }
+        .scrollable {
+            display: block;
+            overflow-x: auto;
+            overflow-y: hidden;
+            padding-bottom: 24px;     
+            .container {
+                max-width: 1200px;
+                width: 100%;
+                margin: 0 159.6px;
+                .scrollable_content {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    .scrollable_content_item {
+                        padding: 24px;
+                        box-shadow: 0 2px 8px rgba(52,56,54,.05);
+                        background-color: #fff;
+                        border-radius: 6px;
+                        overflow: hidden;
+
+                        flex: 1;
+                        align-self: stretch;
+                        display: flex;
+                        flex-direction: column;
+                        min-width: 311px;   
+                        margin-right: 20px;    
+                        h6 {
+                            line-height: 24px;
+                            letter-spacing: .15px;
+                            font-weight: 400;
+                            font-size: 20px;
+                        }
+                        p {
+                            margin-bottom: 32px;
+                            margin-top: 8px;
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            letter-spacing: .15px;
+                        }
+                        a {
+                            margin-top: auto;
+                            color: #099a71;
+                            text-decoration: none;
+                      
+                            font-size: 14px;
+                            line-height: 24px;
+                            letter-spacing: .1px;
+                            font-weight: 400;
+                            padding: 8px 0;
+                            display: flex;
+                            align-items: center;     
+                        }           
+                        a:hover {
+                            color: #007d57;
+                        }
+                    }    
+                }
+            }
+        }
+    }
+}

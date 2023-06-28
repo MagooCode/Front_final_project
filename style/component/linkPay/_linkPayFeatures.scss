@@ -1,0 +1,58 @@
+body {
+    .linkPay_features {
+        margin-top: 96px;
+        display: block;
+        margin-bottom: 56px;
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 159.6px;    
+            .linkPay_features_heading {
+                margin-bottom: 40px;
+                h2 {
+                    font-size: 32px;
+                    line-height: 48px;
+                    letter-spacing: .25px;
+                    font-weight: 300;
+                }
+                p {
+                    margin-top: 16px;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: .15px;
+                }
+            }
+            .linkPay_features_items {
+                margin-top: 96px;
+                .row {
+                    display: flex;
+                    flex-wrap: wrap;
+                    .linkPay_features_item {
+                        flex: 0 0 31%;
+                        max-width: 31%;     
+                        .benefit_item {
+                            display: flex;
+                            margin-bottom: 40px;     
+                            .benefit_item_content {
+                                flex: 1;
+                                margin-left: 24px;
+                                h6 {
+                                    font-size: 20px;
+                                    font-weight: 400;
+                                    margin-bottom: 16px;
+                                    line-height: 24px;
+                                    letter-spacing: .15px;
+                                }
+                                p {
+                                    line-height: 24px;
+                                    color: rgba(0,0,0,.6);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

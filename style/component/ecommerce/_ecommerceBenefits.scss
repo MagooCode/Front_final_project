@@ -1,0 +1,130 @@
+body {
+    .ecommerce_benefits {
+        margin-top: 64px;
+        display: block;
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 159.6px;    
+            .ecommerce_benefits_heading {
+                margin-bottom: 32px;
+                h2 {
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 32px;
+                    line-height: 48px;
+                    letter-spacing: .25px;
+                    color: rgba(0,0,0,.87);     
+                }
+            }
+            .ecommerce_benefits_items {
+                .row {
+                    display: flex;
+                    flex-wrap: wrap;
+                    .ecommerce_benefits_item {
+                        flex: 0 0 31%;
+                        max-width: 31%; 
+
+
+                        margin-right: 16px;
+                        .ecommerce_inner_item {
+                            height: 248px;
+                            background-color: #fafafa;
+                            display: block;
+                            margin-bottom: 24px;
+                            padding: 32px 24px; 
+                            .ecommerce_inner_caption {
+                                h6 {
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 20px;
+                                    line-height: 24px;
+                                    letter-spacing: .15px;
+                                    color: rgba(0,0,0,.87);
+                                    margin-bottom: 16px;
+                                }
+                                p {
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 15px;
+                                    line-height: 24px;
+                                    display: flex;
+                                    align-items: center;
+                                    letter-spacing: .5px;
+                                    color: rgba(0,0,0,.6);
+                                }
+                            }
+                        }
+                    }
+                    .ecommerce_benefits_item.six {
+                        flex: 0 0 33.3333333333%;
+                        max-width: 33.3333333333%; 
+                        .ecommerce_inner_item {
+                            background: linear-gradient(83.06deg,rgba(241,249,247,.56) -77.75%,rgba(224,243,241,.56) -3.38%,rgba(253,246,231,.56) 40.13%,rgba(255,235,240,.56)); 
+                            height: 248px;
+                            display: block;
+                            margin-bottom: 24px;
+                            padding: 32px 24px;     
+                            .ecommerce_inner_item_content {
+                                h6 {
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 20px;
+                                    line-height: 24px;
+                                    letter-spacing: .15px;
+                                    color: rgba(0,0,0,.87);
+                                    margin-bottom: 16px;
+                                }
+                                p {
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 15px;
+                                    line-height: 24px;
+                                    display: flex;
+                                    align-items: center;
+                                    letter-spacing: .5px;
+                                    color: rgba(0,0,0,.6);
+                                }
+                                a {
+                                    background-color: #099a71;
+                                    color: #fff;
+                                    background-position: 50%;
+                                    margin-top: 43px;
+                                    min-width: 128px;
+                                    height: 48px;
+                                    padding: 16px;
+                                    
+                                    font-size: 14px;
+                                    line-height: 24px;
+                                    letter-spacing: .1px;
+                                    font-weight: 400;
+                                    border-radius: 6px;
+                                    cursor: pointer;
+                                    outline: none;
+                                    border: none;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    min-width: 128px;
+                                    width: 100%;
+                                    height: 40px;
+                                    padding: 8px 16px; 
+                                    
+                                    text-decoration: none;
+                                    padding-right: 80px;
+                                    padding-left: 80px;
+                                    display: inline-block;
+                                    text-align: center;
+                                }
+                                a:hover {
+                                    background: #2caa84 radial-gradient(circle,transparent 1%,#2caa84 0) 50%/18000%;
+                                    color: #fff;          
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

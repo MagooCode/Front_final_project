@@ -1,0 +1,77 @@
+body {
+    .linkPay_intro {
+        margin-top: 72px;
+
+        background-color: rgb(223, 242, 236);
+        background-image: url(../../../public/images/linkPay/linkPay-girlpng.png);
+        background-size: 40%;
+        background-position-x: 100%;
+        width: 100%;
+        display: inline-block;
+
+        min-height: 504px;
+        padding-top: 104px;
+        background-position: 100% 100%;
+        background-repeat: no-repeat; 
+        .image {
+            .container {
+                max-width: 1200px;
+                width: 100%;
+                margin: 0 159.6px;
+                .linkPay_intro_items {
+                    display: flex;
+                    flex-wrap: wrap;
+                    .linkPay_intro_item {
+                        flex: 0 0 100%;
+                        max-width: 100%;      
+                        h1 {
+                            width: 564px;
+
+                            margin-bottom: 24px;
+                            font-size: 48px;
+                            line-height: 56px;
+                            font-weight: 300;           
+                        }
+                        p {
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 28px;
+                            color: rgba(0,0,0,.6);
+                            margin-bottom: 40px;
+                            letter-spacing: .5px;
+                        }
+                        a {
+                            background-color: #099a71;
+                            color: #fff;
+                            background-position: 50%;
+                            min-width: 128px;
+                            height: 48px;
+                            padding: 12px 16px;
+                            
+                            font-size: 14px;
+                            line-height: 24px;
+                            letter-spacing: .1px;
+                            font-weight: 400;
+                            border-radius: 6px;
+                            cursor: pointer;
+                            outline: none;
+                            border: none;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            
+                            text-decoration: none;
+                            display: inline-block;
+                            text-align: center;
+                        }
+                        a:hover {
+                            background: #2caa84 radial-gradient(circle,transparent 1%,#2caa84 0) 50%/18000%;
+                            color: #fff;          
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

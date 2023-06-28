@@ -1,0 +1,41 @@
+body {
+    .payments_newoffers {
+        margin-top: 96px;
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 159.6px;
+            h2 {
+                margin-bottom: 40px;
+                font-size: 32px;
+                line-height: 48px;
+                letter-spacing: .25px;
+                font-weight: 300;
+            }
+            .payments_newoffers_items {
+                display: flex;
+                flex-wrap: wrap;
+                .payments_newoffers_item {
+                    flex: 0 0 31.3%;
+                    max-width: 31.3%;    
+
+                    background-color: #fff;
+                    border-radius: 8px;
+                    min-height: 120px;
+                    // padding: 24px 36px;
+                    padding: 8px 36px;
+                    box-shadow: 0 2px 7px rgba(0,0,0,.07);
+                    transition: all .3s cubic-bezier(.23,1,.32,1);
+                    margin-right: 24px;
+                    p {
+                        font-weight: 300;
+                        font-size: 15px;
+                        line-height: 24px;
+                        letter-spacing: .5px;
+                        color: rgba(0,0,0,.6);           
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,63 @@
+body {
+    .linkPay_banner {
+        height: 504px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 80%;
+        color: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-image: url(../../../public/images/linkPay/linkPay-banner.jpg);     
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 159.6px;
+            .linkPay_banner_items {
+                display: flex;
+                flex-wrap: wrap;
+                .linkPay_banner_item {
+                    flex: 0 0 50%;
+                    max-width: 50%;     
+                    h2 {
+                        margin-bottom: 40px;
+                        font-size: 48px;
+                        line-height: 56px;
+                        font-weight: 300;
+                    }
+                    a {
+                        background-color: #099a71;
+                        color: #fff;
+                        background-position: 50%;
+                        min-width: 128px;
+                        height: 48px;
+                        padding: 12px 16px;
+                        
+                        font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: .1px;
+                        font-weight: 400;
+                        border-radius: 6px;
+                        cursor: pointer;
+                        outline: none;
+                        border: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        text-decoration: none;
+                        display: inline-block;
+                        text-align: center;
+                    }
+                    a:hover {
+                        background: #2caa84 radial-gradient(circle,transparent 1%,#2caa84 0) 50%/18000%;
+                        color: #fff;          
+                    }
+                }
+            }
+        }
+    }
+}

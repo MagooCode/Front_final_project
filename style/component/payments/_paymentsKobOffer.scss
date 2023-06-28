@@ -1,0 +1,82 @@
+body {
+    .payments_koboffer {
+        margin-top: 96px;
+        padding: 24px 0;
+
+        flex-direction: column;
+        justify-content: center;
+        background-color: #4e5251;
+        color: #fff;
+        background: linear-gradient(90deg,rgba(0,0,0,.6),transparent 103.17%),url(../../../public/images/payments/payments_secondguy.jpg);
+        background-position: 100% 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 456px;
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 159.6px;
+            .payments_koboffer_items {
+                display: flex;
+                flex-wrap: wrap;
+                .payments_koboffer_item {
+                    flex: 0 0 50%;
+                    max-width: 50%;
+                    h3 {
+                        font-weight: 400;
+                        margin-bottom: 24px;
+                        font-size: 48px;
+                        line-height: 56px;
+                    }
+                    .koboffer_stats {
+                        margin: 48px 0;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        .koboffer_stats_item {
+                            margin-bottom: 16px;
+                            display: flex;
+                            flex-direction: column;
+                            .koboffer_stats_item_heading {
+                                margin-bottom: 8px;
+                            }
+                            h5 {
+                                font-size: 24px;
+                                font-weight: 500;
+                                line-height: 32px;
+                            }
+                        }
+                    }
+                    .koboffer_enter {
+                        display: inline-block;
+                        text-align: center;
+
+                        background: #058d66;
+                        color: #fff;
+                        background-position: 50%;
+
+                        min-width: 128px;
+                        height: 56px;
+                        padding: 16px;
+
+                        transition: all .3s cubic-bezier(.23,1,.32,1);
+                        font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: .1px;
+                        font-weight: 400;
+                        border-radius: 6px;
+                        cursor: pointer;
+                        outline: none;
+                        border: none;
+
+                        text-decoration: none;
+                    }
+                    .koboffer_enter:hover {
+                        background: #2caa84 radial-gradient(circle,transparent 1%,#2caa84 0) 50%/18000%;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

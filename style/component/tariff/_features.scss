@@ -1,0 +1,119 @@
+body {
+    .tariff_features {
+        width: 100%;
+
+        margin-top: 64px;
+        margin-bottom: 0;
+        .container {
+            padding: 0 24px;
+            margin: 0 159.6px;
+            .tariff_features_items {
+                display: flex;
+                flex-wrap: wrap;
+                margin-right: -12px;
+                margin-left: -12px;
+                .tariff_features_item {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                    .table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        border-spacing: 0;
+                        tbody {
+                            tr {
+                                border-bottom: 1px solid #edefed;
+                                vertical-align: middle;
+                                padding: 40px 24px;
+                                width: 20%;
+                                td {
+                                    vertical-align: middle;
+                                    padding: 40px 24px;
+                                    width: 20%;
+                                }
+                                .data_paragraph {
+                                    font-weight: 500;
+                                    font-size: 15px;
+                                    line-height: 24px;
+                                    letter-spacing: .15px;
+                                    color: rgba(0,0,0,.87);
+                                }
+                                .paragraph_desc {
+                                    font-weight: 500;
+                                    font-size: 20px;
+                                    line-height: 24px;
+                                    letter-spacing: .15px;
+                                    color: #058d66;
+                                }
+                                .data_price_desc {
+                                    font-weight: 500;
+                                    font-size: 20px;
+                                    line-height: 24px;
+                                    letter-spacing: .15px;
+                                    color: rgba(0,0,0,.87);
+                                }
+                                .data_price_free {
+                                    font-weight: 500;
+                                    font-size: 15px;
+                                    line-height: 24px;
+                                    letter-spacing: .5px;
+                                    color: #058d66;
+                                }
+                                .data_caption {
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 15px;
+                                    line-height: 24px;
+                                    letter-spacing: .5px;
+                                    color: rgba(0,0,0,.87);
+                                    span {
+                                        color: #058d66;
+                                        font-weight: 500;
+                                    }
+                                }
+                                .data_vertical {
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 15px;
+                                    line-height: 24px;
+                                    letter-spacing: .5px;
+                                    color: rgba(0,0,0,.87);
+                                }
+                                .data_link {
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 15px;
+                                    line-height: 24px;
+                                    letter-spacing: .5px;
+                                    color: rgba(0,0,0,.87);
+                                    a {
+                                        width: 100%;
+                                        height: 40px;
+                                        background: #e0f3ed;
+                                        border-radius: 4px;
+                                        display: block;
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 15px;
+                                        line-height: 40px;
+                                        text-align: center;
+                                        letter-spacing: .15px;
+                                        color: #058d66;
+
+                                        text-decoration: none;
+                                    }
+                                    a:hover {
+                                        background-color: #058d66;
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                            .last {
+                                border-bottom: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

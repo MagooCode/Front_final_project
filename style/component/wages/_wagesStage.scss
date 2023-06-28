@@ -1,0 +1,64 @@
+body {
+    .wages_stage {
+        margin-bottom: 96px;
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 159.6px;
+            .wages_stage_heading {
+                h2 {
+                    font-size: 32px;
+                    line-height: 48px;
+                    letter-spacing: .25px;
+                    font-weight: 300;
+                }
+            }
+            .wages_stage_items {
+                margin-top: 40px;
+                display: flex;
+                .wages_stage_item {
+                    width: calc((100% - 48px)/3);
+                    margin-right: 24px;
+                    .wages_stage_item_logo {
+                        position: relative;
+                        margin-bottom: 24px;
+                        .stage_item_logo_icon {
+                            background-color: #f1f9f7;
+                            border-radius: 50%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            width: 64px;
+                            height: 64px;
+                        }
+                        .stage_item_logo_icon::after {
+                            position: absolute;
+                            content: "";
+                            width: calc(100% - 88px);
+                            right: 0;
+                            top: 50%;
+                            height: 1px;
+                            background-color: #edefed;
+                        }
+                    }
+                    .wages_stage_item_caption {
+                        padding: 0 12px;
+                        overflow-wrap: break-word;
+                        h6 {
+                            margin-bottom: 8px;
+                            line-height: 24px;
+                            letter-spacing: .15px;
+                            font-size: 20px;
+                            font-weight: 400;
+                        }
+                        p {
+                            line-height: 24px;
+                            color: rgba(0,0,0,.6);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

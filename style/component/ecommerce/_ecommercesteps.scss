@@ -1,0 +1,76 @@
+body {
+    .ecommerce_steps {
+        margin-top: 96px;
+        margin-bottom: 64px;
+        display: block;
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 159.6px;         
+            h2 {
+                margin-bottom: 32px;
+                font-size: 32px;
+                line-height: 48px;
+                letter-spacing: .25px;      
+                font-weight: 300;
+            }
+            p {
+                font-style: normal;
+                letter-spacing: .15px;
+
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 28px;
+                color: rgba(0,0,0,.6);
+                margin-bottom: 40px; 
+            }
+            .ecommerce_steps_items {
+                display: flex;
+                flex-wrap: wrap;
+                .ecommerce_step_item {
+                    flex: 0 0 31%;
+                    max-width: 31%;      
+                    margin-right: 20px;
+                    .steps_image {
+                        width: 100%;
+                        text-align: center;
+                        img {
+                            display: inline-block;
+                            width: 128px;
+                            height: 128px;
+                        }
+                    }
+                    .steps_desc {
+                        font-size: 15px;
+                        color: #8b8e8d;
+                        line-height: 24px;
+                        text-align: center;
+                        font-style: normal;
+                        letter-spacing: .15px;  
+                        h4 {
+                            margin-top: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 24px;
+                            text-align: center;
+                            letter-spacing: .15px;
+                            color: rgba(0,0,0,.87);
+                            margin: 24px 0;
+                        }
+                        p {
+                            margin: 24px 0;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 24px;
+                            text-align: center;
+                            letter-spacing: .15px;
+                            color: rgba(0,0,0,.6);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

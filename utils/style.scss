@@ -1,0 +1,92 @@
+@import '../style/component/home/hero';
+@import '../style/component/home/navbar';
+@import '../style/component/home/entepBenefits';
+@import '../style/component/home/mainProducts';
+@import '../style/component/home/solutions';
+@import '../style/component/home/tariff';
+@import '../style/component/home/services';
+@import '../style/component/home/currencyRates';
+@import '../style/component/home/latestNews';
+@import '../style/component/home/footer';
+
+@import '../style/component/tariff/tariffs';
+@import '../style/component/tariff/features';
+
+@import '../style/component/businessServices/bservicesIntro';
+@import '../style/component/businessServices/bservicesPerks';
+@import '../style/component/businessServices/bservicesBenefits';
+@import '../style/component/businessServices/bservicesNew';
+@import '../style/component/businessServices/bservicesTariffs';
+@import '../style/component/businessServices/bservicesAccordion';
+
+@import '../style/component/wages/cashbackSlider';
+@import '../style/component/wages/wagesFeatures';
+@import '../style/component/wages/wagesBenefits';
+@import '../style/component/wages/wagesTariffPcgs';
+@import '../style/component/wages/wagesStage';
+@import '../style/component/wages/wagesSalaryCards';
+@import '../style/component/wages/wagesAccordion';
+
+@import '../style/component/payments/paymentsIntro';
+@import '../style/component/payments/paymentsServiceTime';
+@import '../style/component/payments/paymentsBenefits';
+@import '../style/component/payments/paymentsNewOffers';
+@import '../style/component/payments/paymentsKobOffer';
+@import '../style/component/payments/paymentsWidthdrawals';
+@import '../style/component/payments/paymentsAccordion';
+
+@import '../style/component/digitalCards/digitalCardsSlider';
+@import '../style/component/digitalCards/digitalCardsUsage';
+@import '../style/component/digitalCards/digitalCardsStipulation';
+@import '../style/component/digitalCards/digitalCardsStipulation';
+@import '../style/component/digitalCards/digitalCardsNeeds';
+@import '../style/component/digitalCards/digitalCardsAccordion';
+
+@import '../style/component/terminal/terminalIntro';
+@import '../style/component/terminal/terminalFeatures';
+@import '../style/component/terminal/terminalPost';
+@import '../style/component/terminal/terminalPosTypes';
+@import '../style/component/terminal/terminalSteps';
+@import '../style/component/terminal/terminalDocs';
+
+@import '../style/component/ecommerce/ecommerceIntro';
+@import '../style/component/ecommerce/ecommerceFeatures';
+@import '../style/component/ecommerce/ecommerceBenefits';
+@import '../style/component/ecommerce/ecommercePos';
+@import '../style/component/ecommerce/ecommercesteps';
+@import '../style/component/ecommerce/ecommercePay';
+
+@import '../style/component/linkPay/linkPayIntro';
+@import '../style/component/linkPay/linkPayFeatures';
+@import '../style/component/linkPay/linkPayBanner';
+@import '../style/component/linkPay/linkPaySteps';
+@import '../style/component/linkPay/linkPayStipulation';
+
+@import '../style/component/onlineLoans/onlineLoansHeading';
+@import '../style/component/onlineLoans/onlineLoansFeatures';
+
+@import '../style/component/businessLoans/businessLoansIntro';
+@import '../style/component/businessLoans/businessLoansFeatures';
+@import '../style/component/businessLoans/businessLoansForWhom';
+
+@import '../style/component/sif/sifIntro';
+@import '../style/component/sif/sifFeatures';
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Kalam', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+

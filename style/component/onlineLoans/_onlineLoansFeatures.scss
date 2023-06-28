@@ -1,0 +1,137 @@
+body {
+    .onlineLoans_features {
+        .onlineLoans_feature {
+            margin-bottom: 40px;
+            display: block;
+            .container {
+                max-width: 1200px;
+                width: 100%;
+                margin: 0 159.6px;
+                .onlineLoans_features_items {    
+                    h2 {
+                        margin-bottom: 8px;
+                        font-weight: 300;
+                        font-size: 32px;
+                        line-height: 48px;
+                        letter-spacing: .25px;    
+                        
+                        font-weight: 300;
+                    }
+                    p {
+                        margin-bottom: 32px;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 24px;
+                        letter-spacing: .5px;
+                        color: rgba(0,0,0,.6); 
+                    }
+                    .onlineLoans_features_caption {
+                        max-width: 725px;
+                        margin-bottom: 24px;
+                        .row {
+                            display: flex;
+                            flex-wrap: wrap;
+                            .caption_item {
+                                flex: 0 0 50%;
+                                max-width: 50%; 
+                                h5 {
+                                    margin-bottom: 8px;
+                                    font-size: 24px;
+                                    font-weight: 500;
+                                    line-height: 32px; 
+                                }
+                                p {
+                                    margin-bottom: 24px;
+                                    font-weight: 400;
+                                    font-size: 15px;
+                                    line-height: 24px;
+                                    letter-spacing: .5px; 
+                                    color: rgba(0,0,0,.6);
+                                }
+                            }
+                        }
+                    }
+                    .onlineLoans_features_btns {
+                        display: flex;
+                        .apply {
+                            background: #058d66;
+                            color: #fff;
+                            background-position: 50%;
+
+                            min-width: 128px;
+                            height: 48px;
+                            padding: 12px 16px;
+                            font-size: 14px;
+                            line-height: 24px;
+                            letter-spacing: .1px;
+                            font-weight: 400;
+                            border-radius: 6px;
+                            cursor: pointer;
+                            outline: none;
+                            border: none;
+                            display: flex;          
+                            align-items: center;
+                            justify-content: center;
+
+                            text-decoration: none;
+                            text-align: center;
+                            margin-right: 16px;
+                        }
+                        .apply:hover {
+                            background: #2caa84 radial-gradient(circle,transparent 1%,#2caa84 0) 50%/18000%;
+                            color: #fff;
+                        }
+                        .more_info {
+                            background-color: hsla(0,0%,100%,0);
+                            color: #099a71;
+                            background-position: 50%;
+
+                            min-width: 128px;
+                            height: 48px;
+                            padding: 12px 16px;
+                            font-size: 14px;
+                            line-height: 24px;
+                            letter-spacing: .1px;
+                            font-weight: 400;
+                            border-radius: 6px;
+                            cursor: pointer;
+                            outline: none;
+                            border: none;
+                            display: flex;          
+                            align-items: center;
+                            justify-content: center;
+
+                            text-decoration: none;
+                            text-align: center;
+                            margin-right: 16px;
+                        }
+                        .more_info:hover {
+                            background: #f1f9f7 radial-gradient(circle,transparent 1%,#f1f9f7 0) 50%/18000%;
+                            color: #099a71; 
+                        }
+                    }
+                }
+                .onlineLoans_features_items.holder_one {
+                    background-image: url(../../../public/images/onlineLoans/onlineloans-flexible_credit_cover.png);
+                    background-color: #fff;
+                    border-radius: 8px;
+                    background-repeat: no-repeat;
+                    background-position: 100% 100%;
+                    background-size: contain;
+                    box-shadow: 0 2px 7px rgba(0,0,0,.07); 
+                    padding: 32px 24px; 
+                }
+                .onlineLoans_features_items.holder_two {
+                    background-image: url(../../../public/images/onlineLoans/onlineloans-tobacco-card-background.png);
+                    background-color: #fff;
+                    border-radius: 8px;
+                    background-repeat: no-repeat;
+                    background-position: 100% 100%;
+                    background-size: contain;
+                    box-shadow: 0 2px 7px rgba(0,0,0,.07); 
+                    padding: 32px 24px;     
+                }
+            }
+        }
+    }
+}

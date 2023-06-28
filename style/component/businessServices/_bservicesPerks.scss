@@ -1,0 +1,106 @@
+body {
+    .bservices_perks {
+        width: 100%;
+        height: 550px;
+        background-color: #fafafa;
+
+        padding-top: 56px;
+        .container {
+            height: 100%;
+            max-width: 1200px;
+            width: 100%;
+
+            padding: 0 24px;
+            margin: 0 159.6px;
+            .bservices_perks_heading {
+                display: flex;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                .bservices_perks_heading_sup {
+                    flex: 0 0 50%;
+                    max-width: 50%;
+                    h2 {
+                        margin-bottom: 16px;
+                        font-size: 32px;
+                        line-height: 48px;
+                        letter-spacing: .25px;
+
+                        font-weight: 300;
+                    }
+                }
+            }
+            .bservices_perks_heading_sub {
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 24px;
+                letter-spacing: .5px;
+
+                margin-bottom: 40px;
+                max-width: 858px;
+                color: rgba(0,0,0,.6);
+            }
+            .bservices_perks_items {
+                display: block;
+                overflow-x: auto;
+                overflow-y: hidden;
+                padding-bottom: 24px;
+
+                width: fit-content;
+                display: flex;
+                flex-wrap: nowrap;
+                .bservices_perks_item_wrapper {
+                    margin-right: 24px;
+                    a {
+                        text-decoration: none;
+                        .bservices_perks_item {
+                            background-color: #fff;
+                            border-radius: 8px;
+                            width: 368px;
+                            height: 176px;
+                            padding: 24px;
+                            box-shadow: 0 2px 7px rgba(0,0,0,.07);
+                            transition: all .3s cubic-bezier(.23,1,.32,1);
+
+                            .item_top {
+                                display: flex;
+                                justify-content: space-between;
+                                h6 {
+                                    width: 240px;
+                                    margin-bottom: 16px;
+                                    line-height: 24px;
+                                    letter-spacing: .15px;
+                                    font-size: 20px;
+                                    font-weight: 400;
+    
+                                    color: #333;
+                                }
+                            }
+                        }
+                        .item_sign {
+                            padding: 8px 0;
+                            transition: all .3s cubic-bezier(.23,1,.32,1);
+                            color: #099a71;
+
+                            font-size: 14px;
+                            line-height: 24px;
+                            letter-spacing: .1px;
+                            font-weight: 500;
+                            padding: 8px 0;
+                            display: flex;
+                            align-items: center;
+                            div {
+                                span {
+                                    margin-left: 6px;
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                        .item_sign:hover {
+                            color: #007d57;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

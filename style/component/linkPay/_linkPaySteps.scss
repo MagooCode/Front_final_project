@@ -1,0 +1,69 @@
+body {
+    .linkPay_steps {
+        margin-top: 96px;
+        display: block;
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 159.6px;
+            h2 {
+                font-size: 32px;
+                line-height: 48px;
+                letter-spacing: .25px;
+                font-weight: 300;
+                margin-bottom: 40px;
+            }
+            .linkPay_steps_items {
+                display: flex;
+                flex-wrap: wrap;
+                .step_col {
+                    flex: 0 0 33.3333333333%;
+                    max-width: 33.3333333333%;             
+                    .linkPay_steps_item {
+                        display: flex;
+                        align-items: center;
+                        .step_num {
+                            display: flex;
+                            align-items: center;
+
+                            align-self: flex-start;
+                            justify-content: center;
+                            flex-shrink: 0;
+                            width: 64px;
+                            height: 64px;
+                            font-size: 24px;
+                            line-height: 32px;
+                            color: #fff;
+                            background-color: #51b998;
+                            border-radius: 50%;    
+                        }
+                        .step_num.one {
+                            background-color: #e0f3ed;
+                            color: #099a71;
+                        }
+                        .step_num.two {
+                            background-color: #ffebf0;
+                            color: #e24353;
+                        }
+                        .step_desc {
+                            font-size: 15px;
+                            line-height: 24px;
+                            color: #8b8e8d;
+                            letter-spacing: .5px;
+                            margin-left: 24px;   
+                            h6 {
+                                margin-bottom: 16px;
+                                line-height: 24px;
+                                letter-spacing: .15px;
+                                font-size: 20px;
+                                font-weight: 400;
+                                
+                                color: rgba(0,0,0,1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,212 @@
+.wages_tariff_pcgs ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    .wages_tariff_pcgs {
+        margin-top: 96px;
+        margin-bottom: 96px;
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 159.6px;
+            .tariff_pkcgs_heading {
+                h2 {
+                    margin-bottom: 16px;
+                    font-size: 32px;
+                    line-height: 48px;
+                    letter-spacing: .25px;
+                    font-weight: 300;
+                }
+                p {
+                    margin-bottom: 24px;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 24px;
+                    letter-spacing: .5px;
+                    color: rgba(0,0,0,.6);
+                }
+            }
+            .tariff_pcgs_items {
+                display: flex;
+                .tariff_pcgs_item {
+                    margin-right: 24px;
+                    box-shadow: 0 2px 7px rgba(0,0,0,.07);
+                    transition: all .3s cubic-bezier(.23,1,.32,1);
+                    display: flex;
+                    flex-direction: column;
+                    width: calc((100% - 48px)/3);
+                    padding: 32px 0 24px;
+                    background-color: #fff;
+                    border-radius: 8px;
+                    position: relative;
+                    margin-top: 15px;
+                    .tariff_pcgs_item_heading {
+                        display: flex;
+                        align-items: center;
+                        padding-bottom: 24px;
+                        height: 200px;
+                        justify-content: flex-end;
+                        flex-direction: column;
+                        img {
+                            margin-bottom: 16px;
+                        }
+                        h6 {
+                            margin-bottom: 16px;
+                            line-height: 24px;
+                            letter-spacing: .15px;
+                            font-size: 20px;
+                            font-weight: 400;
+                        }
+                        p {
+                            margin-left: 8px;
+                            padding-right: 8px;
+                            line-height: 24px;
+                            color: rgba(0,0,0,.6);
+                            text-align: center;
+                        }
+                    }
+                    .tariff_pcgs_item_prices {
+                        padding-top: 24px;
+                        .cheap_item_pcg {
+                            margin-bottom: 16px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 0 24px;
+                            .pckgprice_holder_one {
+                                .card_version {
+                                    margin-bottom: 8px;
+                                    display: flex;
+                                    align-items: center;
+                                    p {
+                                        margin-left: 6px;
+                                        font-size: 15px;
+                                        font-weight: 400;
+                                        line-height: 24px;
+                                        letter-spacing: .15px;
+                                        color: #343836;
+                                    }
+                                }
+                            }
+                            .pckgprice_holder_two {
+                                span {
+                                    font-size: 32px;
+                                    line-height: 48px;
+                                    color: #099a71;
+                                }
+                            }
+                        }
+                        .expnsv_item_pcg {
+                            margin-bottom: 16px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 0 24px;
+                            .pckgprice_holder_one {
+                                .card_version {
+                                    margin-bottom: 8px;
+                                    display: flex;
+                                    align-items: center;
+                                    p {
+                                        margin-left: 6px;
+                                        font-size: 15px;
+                                        font-weight: 400;
+                                        line-height: 24px;
+                                        letter-spacing: .15px;
+                                        color: #343836;
+                                    }
+                                }
+                            }
+                            .pckgprice_holder_two {
+                                span {
+                                    font-size: 32px;
+                                    line-height: 48px;
+                                    color: #099a71;
+                                }
+                            }
+                        }
+                        .wagepcg_tariff_interest {
+                            border: solid #edefed;
+                            border-width: 1px 0;
+                            padding: 16px 0;
+                            div {
+                                padding: 0 24px;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                p {
+                                    font-size: 15px;
+                                    font-weight: 400;
+                                    line-height: 24px;
+                                    letter-spacing: .15px;
+                                    color: #343836;
+                                }
+                                span {
+                                    font-size: 32px;
+                                    line-height: 48px;
+                                    color: #099a71;
+                                }
+                            }
+                        }
+                    }
+                    .tariff_pcgs_item_conditions {
+                        padding: 24px 0 0 24px;
+                        .tariffconditions {
+                            margin-bottom: 24px;
+                            list-style: none;
+                            .tariffcondition {
+                                background-position-y: top;
+                                padding: 0 32px;
+                                background-size: 20px;
+                                background: url(../../../public/images/tariffs/done.svg) no-repeat 0;
+                                color: rgba(0,0,0,.6);
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 20px;
+                                letter-spacing: .25px;
+                                margin-bottom: 16px;
+                                span {
+                                    color: #099a71;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+                    .tariff_pcgs_item_orderbtn {
+                        padding: 0 24px;
+                        margin-top: auto;
+                        width: 100%;
+                        a {
+                            background: #058d66;
+                            color: #fff;
+                            background-position: 50%;
+
+                            text-decoration: none;
+
+                            font-size: 14px;
+                            line-height: 24px;
+                            letter-spacing: .1px;
+                            font-weight: 400;
+                            border-radius: 6px;
+                            cursor: pointer;
+                            outline: none;
+                            border: none;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            min-width: 128px;
+                            height: 40px;
+                            padding: 8px 16px;
+                        }
+                        a:hover {
+                            background: #2caa84 radial-gradient(circle,transparent 1%,#2caa84 0) 50%/18000%;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

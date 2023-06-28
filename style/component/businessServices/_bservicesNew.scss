@@ -1,0 +1,93 @@
+body {
+    .bservices_new {
+        display: flex;
+    
+        flex-direction: column;
+        justify-content: center;
+        background-color: #4e5251;
+        color: #fff;
+        background-image: url(../../../public/images/bservices/final_flowers.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 456px;
+
+        margin-top: 96px;
+        .container {
+            height: 100%;
+            max-width: 1200px;
+            width: 100%;
+
+            padding: 0 24px;
+            margin: 0 159.6px;
+            .bservices_new_caption {
+                display: flex;
+                flex-wrap: wrap;
+                .bservices_new_item {
+                    flex: 0 0 66.6666666667%;
+                    max-width: 66.6666666667%;
+                    h3 {
+                        margin-bottom: 24px;
+                        font-size: 48px;
+                        line-height: 56px;
+                    }
+                }
+                .item_price {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 48px;
+                    margin-top: 48px;
+                    flex-direction: row;
+                    .item_price_format {
+                        div {
+                            margin-bottom: 8px;
+                        }
+                        h5 {
+                            font-size: 24px;
+                            font-weight: 500;
+                            line-height: 32px;
+                        }
+                    }
+                    .item_price_operation {
+                        div {
+                            margin-bottom: 8px;
+                        }
+                        h5 {
+                            font-size: 24px;
+                            font-weight: 500;
+                            line-height: 32px;
+                        }
+                    }
+                }
+                a {
+                    display: inline-block;
+                    text-align: center;
+
+                    background: #058d66;
+                    color: #fff;
+                    background-position: 50%;
+
+                    min-width: 144px;
+                    height: 56px;
+                    padding: 16px;
+
+                    transition: all .3s cubic-bezier(.23,1,.32,1);
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: .1px;
+                    font-weight: 400;
+                    border-radius: 6px;
+                    cursor: pointer;
+                    outline: none;
+                    border: none;
+
+                    text-decoration: none;
+                }
+                a:hover {
+                    background: #2caa84 radial-gradient(circle,transparent 1%,#2caa84 0) 50%/18000%;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

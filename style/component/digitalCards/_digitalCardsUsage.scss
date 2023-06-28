@@ -1,0 +1,59 @@
+body {
+    .digitalCardsUsage {
+        margin-top: 40px;
+        display: block;
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 159.6px;     
+            .digitalCardsUsage_items {
+                display: flex;
+                flex-wrap: wrap;
+                .digitalCardsUsage_item_stat {
+                    flex: 0 0 41.6666666667%;
+                    max-width: 41.6666666667%;
+                    .item_stat_caption {
+                        margin-bottom: 32px;
+                        h4 {
+                            margin-bottom: 24px;
+                            font-size: 32px;
+                            line-height: 48px;
+                            letter-spacing: .25px;  
+                            font-weight: 500;  
+                            span {
+                                font-weight: 500;
+                            }
+                        }
+                        h6 {
+                            margin-bottom: 24px;
+                            line-height: 24px;
+                            letter-spacing: .15px;
+                            font-size: 20px;
+                            font-weight: 400;
+                        }
+                        p {
+                            font-weight: 300;
+                            font-size: 15px;
+                            line-height: 24px;
+                            letter-spacing: .5px;
+
+                            color: rgba(0, 0 , 0, 0.6);
+                        }
+                    }
+                    .item_stat_card {
+                        display: flex;
+                        .secondSvg {
+                            margin-left: 24px;
+                        }
+                    }
+                }
+                .digitalCardsUsage_item_pic {
+                    display: flex;
+                    justify-content: flex-end;
+                    flex: 0 0 58.3333333333%;
+                    max-width: 58.3333333333%;             
+                }
+            }
+        }
+    }
+}

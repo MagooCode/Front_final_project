@@ -1,0 +1,82 @@
+body {
+    .terminal_intro {
+        margin-top: 72px;
+        background-color: #f1f9f7;
+        .image_holder {
+            .image {
+                background-image: url(../../../public/images/terminal/terminal-acquiring.png);
+                // background-position: 72%;
+                // background-repeat: no-repeat;
+                // background-size: contain;
+                // padding-top: 128px;
+                // padding-bottom: 128px;
+                background-color: rgb(223, 242, 236);
+                background-size: 45%;
+                background-position-x: 90%;
+                width: 100%;
+                display: inline-block;
+                
+                min-height: 504px;
+                padding-top: 104px;
+                background-position: 100% 100%;
+                background-repeat: no-repeat;     
+                .container {
+                    max-width: 1200px;
+                    width: 100%;
+                    margin: 0 159.6px;
+                    .terminal_intro_items {
+                        display: flex;
+                        flex-wrap: wrap;
+                        .terminal_intro_item {
+                            flex: 0 0 58.3333333333%;
+                            max-width: 58.3333333333%;
+                            h1 {
+                                margin-bottom: 24px;
+                                font-size: 48px;
+                                line-height: 56px;
+                                // letter-spacing: unset!important;
+                                font-weight: 300;
+                            }
+                            p {
+                                margin-bottom: 40px;
+                                font-weight: 400;
+                                font-size: 15px;
+                                line-height: 24px;
+                                letter-spacing: .5px;
+                                color: rgba(0,0,0,.6);
+                            }
+                            .terminal_enter {
+                                display: inline-block;
+                                text-align: center;
+    
+                                background: #058d66;
+                                color: #fff;
+                                background-position: 50%;
+    
+                                min-width: 128px;
+                                height: 48px;
+                                padding: 12px 16px;
+    
+                                transition: all .3s cubic-bezier(.23,1,.32,1);
+                                font-size: 14px;
+                                line-height: 24px;
+                                letter-spacing: .1px;
+                                font-weight: 400;
+                                border-radius: 6px;
+                                cursor: pointer;
+                                outline: none;
+                                border: none;
+    
+                                text-decoration: none;
+                            }
+                            .terminal_enter:hover {
+                                background: #2caa84 radial-gradient(circle,transparent 1%,#2caa84 0) 50%/18000%;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

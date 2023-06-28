@@ -1,0 +1,163 @@
+.terminal_pos_types ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    .terminal_pos_types {
+        margin-top: 96px;
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 159.6px;
+            h2 {
+                font-size: 32px;
+                line-height: 48px;
+                letter-spacing: .25px;
+                font-weight: 300;
+            }
+            .terminal_pos_types_content {
+                .scrollable {
+                    display: block;
+                    overflow-x: auto;
+                    overflow-y: hidden;
+                    padding-bottom: 24px;      
+                    .scrollable_content {
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: nowrap;
+                        .scrollable_content_item {
+                            margin-right: 24px;
+                            flex-grow: 1;
+                            flex-basis: 0;
+                            min-width: 311px;
+                            align-self: stretch;      
+                        
+                            box-shadow: 0 2px 8px rgba(52,56,54,.05);
+                            background-color: #fff;
+                            border-radius: 6px;
+                            overflow: hidden;    
+                            .content_item_image {
+                                background-color: #f4f5f4;
+                                padding: 80px 0;
+                                text-align: center;
+                                position: relative;
+                                .img_one {
+                                    width: 260px;
+                                    display: inline-block;           
+                                }
+                                .img_two {
+                                    position: absolute;
+                                    top: 24px;
+                                    right: 24px;          
+                                }
+                                .content_item_image_caption {
+                                    position: absolute;
+                                    bottom: 24px;
+                                    width: 100%;
+                                    text-align: center;          
+                                    span {
+                                        font-weight: 500;
+                                        font-size: 14px;
+                                        line-height: 20px;
+                                        letter-spacing: .25px;
+                                        color: rgba(0,0,0,.6);          
+                                    }
+                                }
+                            }
+                        }
+                        .content_item_features {
+                            padding: 24px;
+                            h6 {
+                                margin-bottom: 16px;
+                                line-height: 24px;
+                                letter-spacing: .15px;
+                                font-size: 20px;
+                                font-weight: 400;
+                            }
+                            ul {
+                                margin-bottom: 32px;
+                                list-style: none;
+                                li {
+                                    background: url(../../../public/images/tariffs/done.svg) no-repeat 0;
+                                    background-size: 20px;
+                                    background-position-y: top;
+                                    padding: 0 28px;
+                                    
+                                    color: rgba(0,0,0,.6);
+                                    font-weight: 400;
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                    letter-spacing: .25px;
+                                    margin-bottom: 16px;             
+                                }
+                            }
+                            .more {
+                                background-color: hsla(0,0%,100%,0);
+                                color: #099a71;
+                                background-position: 50%;
+        
+                                font-size: 14px;
+                                line-height: 24px;
+                                letter-spacing: .1px;
+                                font-weight: 500;
+                                border-radius: 6px;
+                                cursor: pointer;
+                                outline: none;
+                                border: none;
+        
+                                transition: all .3s cubic-bezier(.23,1,.32,1);
+        
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 100%;
+                                height: 40px;
+                                padding: 8px 16px;
+        
+                                margin-bottom: 8px;
+                            }
+                            .more:hover {
+                                background: #f1f9f7 radial-gradient(circle,transparent 1%,#f1f9f7 0) 50%/18000%;
+                                color: #099a71;
+                            }
+                            .create_acc {
+                                background: #058d66;
+                                color: #fff;
+                                background-position: 50%;
+        
+                                transition: all .3s cubic-bezier(.23,1,.32,1);
+                                font-size: 14px;
+                                line-height: 24px;
+                                letter-spacing: .1px;
+                                font-weight: 500;
+                                border-radius: 6px;
+                                cursor: pointer;
+                                outline: none;
+                                border: none;
+        
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 100%;
+                                height: 40px;
+                                padding: 8px 16px;
+                            }
+                            .create_acc:hover {
+                                background: #2caa84 radial-gradient(circle,transparent 1%,#2caa84 0) 50%/18000%;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+                p {
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: .15px;
+                    margin-top: 16px;margin-bottom: 32px;
+                }
+            }
+        }
+    }
+}

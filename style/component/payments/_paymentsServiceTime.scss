@@ -1,0 +1,27 @@
+body {
+    .payments_serviceTime {
+        margin-top: 96px;
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 159.6px;
+            h2 {
+                max-width: 530px;
+                margin-bottom: 16px;
+                font-size: 32px;
+                line-height: 48px;
+                letter-spacing: .25px;
+                font-weight: 300;
+            }
+            p {
+                max-width: 858px;
+                margin-bottom: 40px;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 24px;
+                letter-spacing: .5px;
+                color: rgba(0,0,0,.5);                                
+            }
+        }
+    }
+}
